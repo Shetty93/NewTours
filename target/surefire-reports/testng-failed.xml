@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="TestChrome(failed)">
+    <classes>
+      <class name="com.newtours.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.newtours.test.ValidLogin -->
+      <class name="com.newtours.test.FlightBooking">
+        <methods>
+          <include name="testFlightBooking"/>
+        </methods>
+      </class> <!-- com.newtours.test.FlightBooking -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
